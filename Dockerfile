@@ -1,5 +1,5 @@
 FROM alpine:3.7
 
-ADD ./server /usr/bin/
+ADD ./echo /usr/bin/
 
-CMD ["/usr/bin/server"]
+CMD ["/usr/bin/echo"]
